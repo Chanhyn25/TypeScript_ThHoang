@@ -1,0 +1,104 @@
+{
+    "products": [
+      {
+        "id": "2",
+        "name": "Product B",
+        "image": "https://picsum.photos/300/300",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "name": "Product C",
+        "image": "https://picsum.photos/300/300",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "id": "4",
+        "name": "Product B",
+        "image": "https://picsum.photos/300/300",
+        "price": "100",
+        "description": ""
+      },
+      {
+        "id": "5",
+        "name": "Chanh",
+        "image": "https://picsum.photos/300/300",
+        "price": "100",
+        "description": ""
+      }
+    ],
+    "menu": [
+      {
+        "id": "2",
+        "label": "Sản phẩm",
+        "path": "/products",
+        "icon": "<svg className=\"bi\">\n  <use xlink:href=\"#house-fill\" />\n</svg>"
+      },
+      {
+        "id": "3",
+        "label": "Giỏ hàng",
+        "path": "/cards",
+        "icon": "<svg className=\"bi\">\n  <use xlink:href=\"#house-fill\" />\n</svg>"
+      }
+    ],
+    "menuAdmin": [
+      {
+        "id": "1",
+        "label": "Danh sách sản phẩm",
+        "path": "/admin/products",
+        "icon": "<svg className=\"bi\">\n  <use xlink:href=\"#house-fill\" />\n</svg>"
+      },
+      {
+        "id": "2",
+        "label": "Thêm sản phẩm",
+        "path": "/admin/products/add",
+        "icon": "<svg className=\"bi\">\n  <use xlink:href=\"#house-fill\" />\n</svg>"
+      }
+    ],
+    "cards": [
+      {
+        "id": "3",
+        "name": "Product C",
+        "image": "https://picsum.photos/300/300",
+        "price": 500,
+        "quality": 9
+      },
+      {
+        "id": "4",
+        "name": "Product B",
+        "image": "https://picsum.photos/300/300",
+        "price": 600,
+        "quality": 7
+      },
+      {
+        "id": "5",
+        "name": "Chanh",
+        "image": "https://picsum.photos/300/300",
+        "price": "100",
+        "description": "",
+        "quality": 2
+      },
+      {
+        "id": "2",
+        "name": "Product B",
+        "image": "https://picsum.photos/300/300",
+        "price": "100",
+        "description": "",
+        "quality": 1
+      }
+    ],
+    "users": [
+      {
+        "id": "1",
+        "email": "admin@fpt.edu.vn",
+        "password": "123"
+      },
+      {
+        "id": "2",
+        "email": "hanhntph34748@fpt.edu.vn",
+        "password": "123"
+      }
+    ]
+  }
