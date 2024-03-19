@@ -6,7 +6,7 @@ export interface Product {
     price: number;
     description: string;
     quality: number;
-    // Thêm các trường dữ liệu khác của sản phẩm tại đây nếu cần
+    image: string;
 }
 
 export const getProducts = async (): Promise<Product[]> => {

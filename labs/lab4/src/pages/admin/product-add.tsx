@@ -3,10 +3,12 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 
 interface ProductFormData {
+  id: string;
   name: string;
   image: string;
   price: number;
   description: string;
+  quantity: number;
 }
 
 const ProductAddPage: React.FC<{ onAdd: (data: ProductFormData) => void }> = ({ onAdd }) => {
