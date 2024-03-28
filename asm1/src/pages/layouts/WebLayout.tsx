@@ -30,9 +30,6 @@ const WebsiteLayout = () => {
           <Menu.Item key='signin' style={{ backgroundColor: '#f0f2f5' }}>
             <Link to={'/signin'}>Đăng Nhập</Link>
           </Menu.Item>
-          <Menu.Item key='signin' style={{ backgroundColor: '#f0f2f5' }}>
-            <Link to={'/signin'}> About</Link>
-          </Menu.Item>
         </Menu>
       </Header>
       <Content style={{ backgroundColor: '#fff' }}>

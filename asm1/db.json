@@ -1,0 +1,99 @@
+{
+    "products": [
+      {
+        "id": "7",
+        "name": "Hoàng Thị Hà",
+        "price": "20001",
+        "image": "./src/images/1.jpg",
+        "description": "Nguyễn Yến Nhi"
+      },
+      {
+        "id": "2",
+        "name": "Hoàng Thị Hà",
+        "price": "20001",
+        "image": "./src/images/2.jpg",
+        "description": "Nguyễn Yến Nhi"
+      },
+      {
+        "id": "3",
+        "name": "Hoàng Thị Hà",
+        "price": "20001",
+        "image": "./src/images/4.jpg",
+        "description": "Nguyễn Yến Nhi"
+      },
+      {
+        "id": "4",
+        "name": "Hoàng Thị Hà",
+        "price": "20001",
+        "image": "./src/images/3.jpg",
+        "description": "Nguyễn Yến Nhi"
+      }
+      
+    ],
+    "users": [
+      {
+        "name": "xx",
+        "email": "xxx@gmail.com",
+        "password": "xxx",
+        "confirmpassword": "xxx",
+        "agreement": true,
+        "id": "6"
+      },
+      {
+        "name": "ncx",
+        "email": "ncx@gmail.com",
+        "password": "ncx",
+        "confirmpassword": "ncx",
+        "agreement": true,
+        "id": "7"
+      },
+      {
+        "name": "abc",
+        "email": "abc@gmail.com",
+        "password": "abc",
+        "confirmpassword": "abc",
+        "agreement": true,
+        "id": "8"
+      },
+      {
+        "name": "xuat",
+        "email": "xuat@gmail.com",
+        "password": "xuat",
+        "confirmpassword": "xuat",
+        "agreement": true,
+        "id": "9"
+      },
+      {
+        "name": "xuat",
+        "email": "xuatxipo@gmail.com",
+        "password": "123",
+        "confirmpassword": "123",
+        "agreement": true,
+        "id": "10"
+      },
+      {
+        "name": "thanh",
+        "email": "thanhntph20216@fpt.edu.vn",
+        "password": "123456",
+        "confirmpassword": "123456",
+        "agreement": true,
+        "id": "11"
+      },
+      {
+        "id": "a988",
+        "name": "Nhi",
+        "email": "nguyenyennhi09050@gmail.com",
+        "password": "123",
+        "confirmpassword": "123",
+        "agreement": true
+      },
+      {
+        "id": "1c08",
+        "name": "Nhi",
+        "email": "nguyenyennhi09050@gmail.com",
+        "password": "123",
+        "confirmpassword": "123",
+        "agreement": true
+      }
+    ]
+  }

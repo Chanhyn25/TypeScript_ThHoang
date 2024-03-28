@@ -1,18 +1,16 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
-import AddProductPage from './pages/admin/AddProduct';
 import { addProduct, getAllProduct, updateProduct } from './api/product';
 import UpdateProductPage from './pages/admin/UpdateProduct';
 import { IProduct } from './types/product';
 import WebsiteLayout from './pages/layouts/WebLayout';
 import Hompage from './component/HomePage';
-import SignUp from './component/Signup';
-import Signin from './component/Signin';
 import ProductPage1 from './component/Product';
 import ProductDetailPage from './component/ProductDetail';
 import AdminLayout from './pages/layouts/AdminLayout';
 import Dashboard from './pages/admin/Dashboard';
-import ProductManagementPage from './pages/admin/ProductMange';
+import ProductPage from './component/Product';
+import ProductManagementPage from './pages/admin/ListProduct';
 
 function App() {
   const [products, setProduct] = useState<IProduct[]>([]);
@@ -43,13 +41,11 @@ function App() {
         <Routes>
           <Route path='/' element={<WebsiteLayout />}>
             <Route index element={<Hompage />} />
-            <Route path='signup' element={<SignUp />} />
-            <Route path='signin' element={<Signin />} />
             <Route path='products'>
               <Route
                 index
                 element={
-                  <ProductPage1 products={products} onRemove={onHandleRemove} />
+                  <ProductPage products={products} onRemove={onHandleRemove} />
                 }
               />
               <Route
